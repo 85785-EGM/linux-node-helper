@@ -23,7 +23,7 @@
   ],
   "author": "yqming",
   "bin": {
-    "node-helper": "./index.js"
+    "node-helper": "./dist/index.js"
   },
   "license": "MIT",
   "bugs": {
@@ -32,6 +32,7 @@
   "homepage": "https://github.com/85785-EGM/linux-node-helper#readme",
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
     "axios": "^1.1.3",
     "body-parser": "^1.20.1",
     "crypto-js": "^4.1.1",
