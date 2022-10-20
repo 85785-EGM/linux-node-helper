@@ -7,6 +7,11 @@
   -c { command } when is 'exec', execute command without input(-i)
 ```
 
+## server
+```cmd
+ > node-helper server -p=8400
+```
+
 ## exec
 ```cmd
  > node-helper exec -c='cd src && ls'

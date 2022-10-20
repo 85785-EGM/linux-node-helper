@@ -17,8 +17,9 @@
   },
   "keywords": [
     "node",
-    "mysql",
-    "js"
+    "linux",
+    "command",
+    "file"
   ],
   "author": "yqming",
   "bin": {
