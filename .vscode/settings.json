@@ -1,0 +1,34 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "cSpell.enabled": true,
+  "cSpell.words": [
+  ],
+  "debug.javascript.debugByLinkOptions": "always",
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": false,
+  "standard.autoFixOnSave": true,
+  "standard.enable": true,
+  "standard.options": {
+    "global": [
+      "Blob",
+      "fetch",
+      "postMessage",
+      "atob",
+      "btoa",
+      "defineProps",
+      "defineExpose",
+      "defineEmits",
+      "FileReader"
+    ],
+    "ignore": [
+      "node_modules/**",
+      "*.vue"
+    ]
+  },
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false
+}
