@@ -1,4 +1,3 @@
-const version = require('./package.json').version
 const os = require('os')
 
 const enableFunction = ['server', 'exec', 'send-file', 'recv-file']
@@ -18,12 +17,12 @@ const COMMAND = getArg('-c')
 
 switch (FUNCTION) {
   case 'server':
-    const app = require('./src/server')
+    const app = require('./server')
     const beforeSpace = ' '
     const interfaces = os.networkInterfaces()
     console.log()
     console.log(
-      `${beforeSpace}\x1b[36mlinux-node-helper v${version}\x1b[0m`,
+      `${beforeSpace}\x1b[36mlinux-node-helper \x1b[0m`,
       `\x1b[32m${'server running at:'}\x1b[0m`
     )
     console.log()
@@ -43,11 +42,11 @@ switch (FUNCTION) {
     app.listen(PORT)
     break
   case 'send-file':
-    const writeFile = require('./src/writeFile')
+    const writeFile = require('./writeFile')
     writeFile({ input: INPUT, output: OUTPUT, host: HOST, port: PORT })
     break
   case 'exec':
-    const exec = require('./src/exec')
+    const exec = require('./exec')
     exec({ input: INPUT, command: COMMAND, host: HOST, port: PORT })
     break
 }
