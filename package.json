@@ -1,0 +1,39 @@
+{
+  "name": "node-fast-sql",
+  "version": "1.0.11",
+  "description": "easy linux transfer file",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "node index",
+    "build": "rollup -c",
+    "push": "rollup -c && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/85785-EGM/fast-sql.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "js"
+  ],
+  "author": "yqming",
+  "bin": {
+    "node-helper": "./index.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/85785-EGM/fast-sql/issues"
+  },
+  "homepage": "https://github.com/85785-EGM/fast-sql#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mysql": "^2.18.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
