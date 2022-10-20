@@ -1,6 +1,6 @@
 {
   "name": "linux-node-helper",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "easy linux transfer file",
   "main": "dist/index.js",
   "scripts": {
