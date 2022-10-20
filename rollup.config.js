@@ -11,5 +11,5 @@ export default {
     name: 'mysql-sql',
     exports: 'default'
   },
-  plugins: [json(), nodeResolve(),commonjs(), terser()]
+  plugins: [json(), nodeResolve(), commonjs()]
 }
