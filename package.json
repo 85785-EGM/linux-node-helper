@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index",
     "build": "rollup -c",
-    "push": "rollup -c && npm publish"
+    "push": "npm publish"
   },
   "repository": {
     "type": "git",
